@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-15px); }
+        }
+        .animate-float-1 {
+          animation: float 4s ease-in-out infinite;
+          animation-delay: 0.3s;
+        }
+        .animate-float-2 {
+          animation: float 4s ease-in-out infinite;
+          animation-delay: 0.6s;
+        }
+        .animate-float-3 {
+          animation: float 4s ease-in-out infinite;
+          animation-delay: 0.9s;
+        }
+        
+        @keyframes glow {
+          0%, 100% { opacity: 0.8; }
+          50% { opacity: 1; }
+        }
+        .animate-glow-yellow {
+          animation: glow 3s ease-in-out infinite;
+          animation-delay: 0.5s;
+        }
+        .animate-glow-blue {
+          animation: glow 3s ease-in-out infinite;
+          animation-delay: 1s;
+        }
+        .animate-glow-purple {
+          animation: glow 3s ease-in-out infinite;
+          animation-delay: 1.5s;
+        }
+        
+        @keyframes particle {
+          0% { transform: translate(0, 0); opacity: 0; }
+          20% { opacity: 1; }
+          100% { transform: translate(20px, -30px); opacity: 0; }
+        }
+        .animate-particle {
+          animation: particle 2.5s linear infinite;
+        }
+
+.animate-twinkle {
+  animation: twinkle 4s infinite;
+}
+
+[data-theme="light"] {
+  --primary-500: #3b82f6;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+}
+
+[data-theme="dark"] {
+  --primary-500: #60a5fa;
+  --text-primary: #f9fafb;
+  --text-secondary: #d1d5db;
+}
+
+[data-theme="mystical"] {
+  --primary-500: #a78bfa;
+  --text-primary: #ede9fe;
+  --text-secondary: #ddd6fe;
+}
+
+.bg-gradient-light {
+  background: linear-gradient(120deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(120deg, #2d323e 0%, #303338 100%);
+}
+
+.bg-gradient-mystical {
+  background: linear-gradient(120deg, #4c1d95 0%, #ebd5ff 100%);
+}
+
+:root{
+  font-family: "Poppins",sans-serif;
+}
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0) rotate(0deg); }
+          25% { transform: translateY(-10px) rotate(5deg); }
+          50% { transform: translateY(-5px) rotate(0deg); }
+          75% { transform: translateY(-8px) rotate(-5deg); }
+        }
+        .animate-float {
+          animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes glow-gold {
+          0%, 100% { opacity: 0.5; }
+          50% { opacity: 0.8; }
+        }
+        .animate-glow-gold {
+          animation: glow-gold 3s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        .animate-spin {
+          animation: spin 1s linear infinite;
+        }
