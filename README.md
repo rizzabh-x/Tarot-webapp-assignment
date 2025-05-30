@@ -1,78 +1,54 @@
-Tarot Web App 🔮
-Tarot Card Reading Preview https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20163902.png
+# 🔮 Tarot Web App
 
-A blazing-fast, fully responsive tarot reading application built with Vite, featuring smooth animations and local storage persistence. Experience mystical card readings with modern web performance!
+A blazing-fast, fully responsive Tarot reading application built with **Vite**, **React**, and **Tailwind CSS**. Experience mystical card readings with modern web performance, local state persistence, and elegant UI transitions.
 
-Features ✨
+> 🔮 [Live Demo](https://tarot-webapp-sepia.vercel.app/)  
+> 💻 Created by [Rishabh Malav](https://github.com/rizzabh-x)
 
-Local Storage Integration: Saves login credentials
+---
 
-Smooth Animations: Card draw and transition animations
+## ✨ Features
 
-Mobile-First Design: Fully responsive on all devices
+- **🔐 Local Storage Integration** — Saves login credentials and previous readings.
+- **🎴 Smooth Animations** — Magical transitions and card drawing effects.
+- **📱 Mobile-First Design** — Fully responsive layout for all devices.
+- **🕰️ Reading History** — View your previous Tarot card draws.
+- **🌓 Dark/Light Mode** — Adapts to system theme with manual toggle.
 
-Reading History: Saves last readings
+---
 
-Dark/Light Mode: Adaptive to system preferences with manual toggle
+## 🖼️ App Preview
 
-These are some sample images of the webapp :
-<!-- Add your sample images here -->
-Desktop View https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164241.png
-https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164258.png
-Mobile Experience https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/WhatsApp%20Image%202025-05-30%20at%2016.46.13.jpeg
-https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/WhatsApp%20Image%202025-05-30%20at%2016.46.14.jpeg
-Local Storage (User State) https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164346.png
+### Tarot Card Reading  
+![Reading Screenshot](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20163902.png)
 
-Tech Stack 💻
-Core:
+### Desktop Views  
+![Desktop 1](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164241.png)  
+![Desktop 2](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164258.png)
 
-⚡ Vite (Build tooling)
+### Mobile Experience  
+![Mobile 1](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/WhatsApp%20Image%202025-05-30%20at%2016.46.13.jpeg)  
+![Mobile 2](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/WhatsApp%20Image%202025-05-30%20at%2016.46.14.jpeg)
 
-⚛️ React 18 (Functional Components + Hooks)
+### Local Storage (User State)  
+![User State](https://github.com/rizzabh-x/Tarot-webapp/blob/f37f9495f8a69d4ecd35a33678a956fffb558b82/Screenshot%202025-05-30%20164346.png)
 
-💅 Tailwind CSS (Styling)
+---
 
-Key Libraries:
+## 💻 Tech Stack
 
-🧭 React Router v6 (Navigation)
+### Core:
+- ⚡ **Vite** — Lightning-fast build tool
+- ⚛️ **React 18** — Functional components and Hooks
+- 💅 **Tailwind CSS** — Utility-first modern styling
 
-💾 LocalStorage API (User state persistence)
+### Libraries:
+- 🧭 **React Router v6** — Client-side routing
+- 💾 **LocalStorage API** — Persistent user state
 
-Deployment:
+### Deployment:
+- ▲ **Vercel** — Static hosting with CI/CD from GitHub
 
-▲ Vercel (Static hosting with CI/CD)
-
-Installation ⚙️
-Clone the repository:
-
-bash
-git clone https://github.com/rizzabh-x/Tarot-webapp.git
-cd Tarot-webapp
-Install dependencies:
-
-bash
-npm install
-Start the Vite development server:
-
-bash
-npm run dev
-Open in your browser:
-
-http://localhost:5173
-Building for Production 🏗️
-Create optimized production build:
-
-bash
-npm run build
-Preview production build locally:
-
-bash
-npm run preview
-Deployment 🚀
-The app is deployed on Vercel with automatic CI/CD from GitHub:
-
-Deploy with Vercel
+---
 
 
-🔮 Live Demo: https://tarot-webapp-sepia.vercel.app/
-💫 Created by Rishabh - https://github.com/rizzabh-x
