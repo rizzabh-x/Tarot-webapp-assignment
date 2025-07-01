@@ -5,7 +5,7 @@ A blazing-fast, fully responsive Tarot reading application built with **Vite**, 
 > 🔮 [Live Demo](https://tarot-webapp-sepia.vercel.app/)  
 > 💻 Created by [Rishabh Malav](https://github.com/rizzabh-x)
 
----
+----
 
 ## ✨ Features
 
